@@ -1,13 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=BioRhyme&family=Bungee&family=Kanit:wght@100;200;300;400;500;600;700&display=swap");
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  margin: 10px;
+  font-family: "Kanit", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(27, 27, 29);
+  color: antiquewhite;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: "BioRhyme", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Bungee", sans-serif;
+  font-size: 210%;
+  width: fit-content;
+  height: fit-content;
+  color: rgb(235, 237, 100);
+  box-shadow: 10px 10px 2px rgba(91, 91, 50, 0.329);
+  margin: 10px;
+}
+
+h2 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 10px;
+  width: 90%;
+  margin: auto;
+  background-color: rgba(52, 7, 7, 0.692);
+}
+
+a {
+  color: rgb(235, 237, 100);
+  /* color: white; */
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 110%;
+  margin: 0px 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+.hero-img {
+  max-width: 90vw;
+  max-height: 85vh;
+}
+
+.bio {
+  margin: 30px;
+  font-size: 18px;
+  font-style: italic;
+  font-family: "BioRhyme", sans-serif;
+}
+
+.project-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  width: 40vw;
+  box-shadow: 0px 0px 10px 2px rgb(97, 97, 86);
+}
+
+.project-name {
+  font-size: 160%;
+  margin: 5px;
+}
+
+.subheader,
+.project-role {
+  font-family: "BioRhyme", sans-serif;
+  margin: 0;
+}
+
+button {
+  font-family: "Kanit", sans-serif;
+  background-color: rgba(88, 13, 13, 0.692);
+  border-radius: 15%;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 100%;
 }
