@@ -37,14 +37,19 @@ h2 {
 nav {
   display: flex;
   justify-content: space-around;
-  border: 3px solid black;
+  border: 1px solid rgba(76, 76, 67, 0.578);
   border-radius: 5px;
   padding: 8px;
   margin: 10px;
   width: 90%;
   margin: auto;
   background-color: rgba(52, 7, 7, 0.692);
+  /* box-shadow: 0px 0px 2px 0px rgb(97, 97, 86); */
 }
+
+/* img {
+  box-shadow: 0px 0px 2px 0px rgb(97, 97, 86);
+} */
 
 a {
   color: rgb(235, 237, 100);

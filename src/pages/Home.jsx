@@ -8,6 +8,8 @@ const Home = () => {
         alt="hero"
         className="hero-img"
       />
+      <br />
+      <small>Photographer: Noel Hernandez</small>
     </div>
   );
 };
