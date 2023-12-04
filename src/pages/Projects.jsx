@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 function Projects(props) {
   const projects = [
@@ -65,12 +66,15 @@ function Projects(props) {
   ];
 
   return (
-    <div
+    <motion.div
       style={{
         display: "flex",
         justifyContent: "space-around",
         flexWrap: "wrap",
       }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
     >
       {projects.map((project, i) => (
         <div className="project-box" key={i}>
@@ -101,7 +105,7 @@ function Projects(props) {
           </section>
         </div>
       ))}
-    </div>
+    </motion.div>
   );
 }
 
