@@ -73,8 +73,8 @@ function Projects(props) {
         flexWrap: "wrap",
       }}
       initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
+      animate={{ opacity: 1, transition: { duration: 0.3 } }}
+      exit={{ opacity: 0, transition: { duration: 0.3 } }}
     >
       {projects.map((project, i) => (
         <div className="project-box" key={i}>

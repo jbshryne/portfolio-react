@@ -5,8 +5,8 @@ const Home = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
+      animate={{ opacity: 1, transition: { duration: 0.3 } }}
+      exit={{ opacity: 0, transition: { duration: 0.3 } }}
     >
       <img
         src="https://i.imgur.com/8lp4d2x.jpg"
