@@ -14,7 +14,12 @@ const Home = () => {
         className="hero-img"
       />
       <br />
-      <small>Photographer: Noel Hernandez</small>
+      <small>
+        📷 <b> :</b>
+        <a href="https://www.instagram.com/helmernoelofficial/">
+          Noel Hernandez
+        </a>
+      </small>
     </motion.div>
   );
 };
