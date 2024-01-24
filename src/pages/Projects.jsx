@@ -25,9 +25,9 @@ function Projects(props) {
       name: "CHESSMIXED",
       role: "Sole Developer",
       description:
-        'Currently a full CRUD Chess app, where a user can play & save multiple games and set custom board positions.  Actively adding features like playing against ChatGPT, player vs player, and a special "higher variance" game mode.',
-      live: "https://chessmixed.onrender.com",
-      git: "https://github.com/jbshryne/chess-project",
+        'Currently a full CRUD Chess app, where a user can play & save multiple games and play friends remotely.  Actively adding features like playing against ChatGPT, player vs player, and a special "higher variance" game mode.',
+      live: "https://chessmixed-0goz.onrender.com/",
+      git: "https://github.com/jbshryne/chessmixed-react",
       images: [
         "https://i.imgur.com/tbjpKqJ.jpg",
         "https://i.imgur.com/XCZpflf.png",
@@ -97,11 +97,13 @@ function Projects(props) {
           <p>{project.description}</p>
           <section>
             <a href={project.live}>
-              <button>Live Site</button>
+              <button>Website</button>
             </a>
-            <a href={project.git}>
-              <button>Github</button>
-            </a>
+            {project.git && (
+              <a href={project.git}>
+                <button>Github</button>
+              </a>
+            )}
           </section>
         </div>
       ))}
