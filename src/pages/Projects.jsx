@@ -13,6 +13,18 @@ function Projects(props) {
       images: ["https://i.imgur.com/Zw7RMCS.png"],
     },
     {
+      name: "CHESSMIXED",
+      role: "Sole Developer",
+      description:
+        'Currently a full CRUD Chess app, where a user can play & save multiple games and play friends remotely.  Actively adding features like playing against ChatGPT and a special "higher variance" game mode.',
+      live: "https://chessmixed-0goz.onrender.com/",
+      git: "https://github.com/jbshryne/chessmixed-react",
+      images: [
+        "https://i.imgur.com/tbjpKqJ.jpg",
+        "https://i.imgur.com/XCZpflf.png",
+      ],
+    },
+    {
       name: "Trip Planner",
       role: "Frontend Developer",
       description:
@@ -20,18 +32,6 @@ function Projects(props) {
       live: "https://trip-planner-dn6v.onrender.com",
       git: "https://github.com/jliakim23/project3-frontend",
       images: ["https://i.imgur.com/7H3AtM5.png"],
-    },
-    {
-      name: "CHESSMIXED",
-      role: "Sole Developer",
-      description:
-        'Currently a full CRUD Chess app, where a user can play & save multiple games and play friends remotely.  Actively adding features like playing against ChatGPT, player vs player, and a special "higher variance" game mode.',
-      live: "https://chessmixed-0goz.onrender.com/",
-      git: "https://github.com/jbshryne/chessmixed-react",
-      images: [
-        "https://i.imgur.com/tbjpKqJ.jpg",
-        "https://i.imgur.com/XCZpflf.png",
-      ],
     },
     {
       name: "MTG Conclave",
