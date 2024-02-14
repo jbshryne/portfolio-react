@@ -13,6 +13,15 @@ function Projects(props) {
       images: ["https://i.imgur.com/Zw7RMCS.png"],
     },
     {
+      name: "Solar System Spotlight",
+      role: "Sole Developer",
+      description:
+        "A 3D interactive model of the Solar System, with a focus on getting children excited about space.  Built with Three.js using the React Three Fiber library.",
+      live: "https://solar-system-spotlight.onrender.com",
+      git: "https://github.com/jbshryne/solar-system",
+      images: ["https://i.imgur.com/qa22q5z.png"],
+    },
+    {
       name: "CHESSMIXED",
       role: "Sole Developer",
       description:
@@ -33,18 +42,20 @@ function Projects(props) {
       git: "https://github.com/jliakim23/project3-frontend",
       images: ["https://i.imgur.com/7H3AtM5.png"],
     },
-    {
-      name: "MTG Conclave",
-      role: "Sole Developer",
-      description:
-        "A database search site for the card game Magic the Gathering that utilizes the Scryfall API, adding unique search options like sorting results by Card Type and showing a random card within given parameters.",
-      live: "https://jbshryne.github.io/mtg-project",
-      git: "https://github.com/jbshryne/mtg-project.git",
-      images: [
-        "https://i.imgur.com/IDzUsVD.png",
-        "https://i.imgur.com/2W35DzI.png",
-      ],
-    },
+
+    // {
+    //   name: "MTG Conclave",
+    //   role: "Sole Developer",
+    //   description:
+    //     "A database search site for the card game Magic the Gathering that utilizes the Scryfall API, adding unique search options like sorting results by Card Type and showing a random card within given parameters.",
+    //   live: "https://jbshryne.github.io/mtg-project",
+    //   git: "https://github.com/jbshryne/mtg-project.git",
+    //   images: [
+    //     "https://i.imgur.com/IDzUsVD.png",
+    //     "https://i.imgur.com/2W35DzI.png",
+    //   ],
+    // },
+
     {
       name: "The Living Room",
       role: "Composer / Sound Designer",
