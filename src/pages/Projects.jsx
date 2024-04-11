@@ -33,28 +33,28 @@ function Projects(props) {
         "https://i.imgur.com/XCZpflf.png",
       ],
     },
-    {
-      name: "Trip Planner",
-      role: "Frontend Developer",
-      description:
-        "A full CRUD app for planning trips, with a focus on the user's experience.  Get help with scheduling, packing checklist, and budgeting.  Built with React, Express.js, and Bootstrap.",
-      live: "https://trip-planner-dn6v.onrender.com",
-      git: "https://github.com/jliakim23/project3-frontend",
-      images: ["https://i.imgur.com/7H3AtM5.png"],
-    },
-
     // {
-    //   name: "MTG Conclave",
-    //   role: "Sole Developer",
+    //   name: "Trip Planner",
+    //   role: "Frontend Developer",
     //   description:
-    //     "A database search site for the card game Magic the Gathering that utilizes the Scryfall API, adding unique search options like sorting results by Card Type and showing a random card within given parameters.",
-    //   live: "https://jbshryne.github.io/mtg-project",
-    //   git: "https://github.com/jbshryne/mtg-project.git",
-    //   images: [
-    //     "https://i.imgur.com/IDzUsVD.png",
-    //     "https://i.imgur.com/2W35DzI.png",
-    //   ],
+    //     "A full CRUD app for planning trips, with a focus on the user's experience.  Get help with scheduling, packing checklist, and budgeting.  Built with React, Express.js, and Bootstrap.",
+    //   live: "https://trip-planner-dn6v.onrender.com",
+    //   git: "https://github.com/jliakim23/project3-frontend",
+    //   images: ["https://i.imgur.com/7H3AtM5.png"],
     // },
+
+    {
+      name: "MTG Conclave",
+      role: "Sole Developer",
+      description:
+        "A database search site for the card game Magic the Gathering that utilizes the Scryfall API, adding unique search options like sorting results by Card Type and showing a random card within given parameters.",
+      live: "https://jbshryne.github.io/mtg-project",
+      git: "https://github.com/jbshryne/mtg-project.git",
+      images: [
+        "https://i.imgur.com/IDzUsVD.png",
+        "https://i.imgur.com/2W35DzI.png",
+      ],
+    },
 
     {
       name: "The Living Room",
