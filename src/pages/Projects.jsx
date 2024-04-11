@@ -16,10 +16,10 @@ function Projects(props) {
       name: "Solar System Spotlight",
       role: "Sole Developer",
       description:
-        "A 3D interactive model of the Solar System, with a focus on getting children excited about space.  Built with Three.js using the React Three Fiber library.",
-      live: "https://solar-system-spotlight.onrender.com",
-      git: "https://github.com/jbshryne/solar-system",
-      images: ["https://i.imgur.com/qa22q5z.png"],
+        "A 3D interactive model of the Solar System, with a focus on getting folks of all ages excited about space.  Built with Unity, incorporating GOTween and Cinemachine.",
+      live: "https://jbshryne.itch.io/solar-system-spotlight",
+      git: "https://github.com/jbshryne/SolarSystemUnity",
+      images: ["https://i.imgur.com/u5wJtgn.png"],
     },
     {
       name: "CHESSMIXED",
