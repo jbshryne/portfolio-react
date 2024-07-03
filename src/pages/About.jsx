@@ -8,7 +8,7 @@ const About = () => {
     linkedin: "https://www.linkedin.com/in/jon-patrick-brennan",
     github: "https://github.com/jbshryne",
     headshot: "https://i.imgur.com/yadnz4d.png",
-    bio: "I'm a coder and musician, specializing in Game Development. I've been an entertainer for all of my life, focusing at different times of my career on theatre, live music, and sound engineering, always seeking to collaborate with other creative minds. I want to use the interpersonal and organizational skills I've developed in the world of the arts, to contribute my talents in telling stories and crafting user experiences.",
+    bio: "I'm a coder and musician, specializing in Game Development. I've been an entertainer all of my life, devoting my talents to live music, sound engineering, and theatre, always seeking to collaborate with other creative minds. I'm looking to use the interpersonal and production skills I've developed in the world of the arts, to contribute in telling stories and crafting user experiences.",
   };
 
   return (
