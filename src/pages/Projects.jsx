@@ -4,13 +4,16 @@ import { motion } from "framer-motion";
 function Projects(props) {
   const projects = [
     {
-      name: "Dungeon Throwdown",
-      role: "Sole Developer",
+      name: "Checker Toss (in production)",
+      role: "Main Developer / Composer",
       description:
-        "A turn-based RPG-style boardgame for two players. Use stragety, luck, and powerups to fight your opponent and reduce their Hit Points to zero! Built with React and the Redux-based library boardgame.io.",
-      live: "https://dungeon-throwdown.onrender.com",
-      git: "https://github.com/jbshryne/dungeon-crawl",
-      images: ["https://i.imgur.com/Zw7RMCS.png"],
+        "A new physics-based game built with Unity for the Living Room (below), combining bowling and frisbee! Toss your checkers and knock over all the toys. Try hitting a bank shot off a wall for big bonus points!",
+      live: "https://bitbucket.org/jbshryne/checker-toss/src/main/",
+      git: "https://bitbucket.org/jbshryne/checker-toss/src/main/",
+      images: [
+        "https://i.imgur.com/OAYwBvQ.png",
+        "https://i.imgur.com/JNFkIF8.png",
+      ],
     },
     {
       name: "Solar System Spotlight",
@@ -22,10 +25,19 @@ function Projects(props) {
       images: ["https://i.imgur.com/u5wJtgn.png"],
     },
     {
+      name: "Dungeon Throwdown",
+      role: "Sole Developer",
+      description:
+        "A turn-based RPG-style boardgame for two players. Use stragety, luck, and powerups to fight your opponent and reduce their Hit Points to zero! Built with React and the Redux-based library boardgame.io.",
+      live: "https://dungeon-throwdown.onrender.com",
+      git: "https://github.com/jbshryne/dungeon-crawl",
+      images: ["https://i.imgur.com/Zw7RMCS.png"],
+    },
+    {
       name: "CHESSMIXED",
       role: "Sole Developer",
       description:
-        'Currently a full CRUD Chess app, where a user can play & save multiple games and play friends remotely.  Actively adding features like playing against ChatGPT and a special "higher variance" game mode.',
+        "Currently a full CRUD Chess app, where users can play & save multiple games and play friends remotely.  Future versions will include playing against an AI opponent (currently in beta) & a wacky higher variance mode.",
       live: "https://chessmixed-0goz.onrender.com/",
       git: "https://github.com/jbshryne/chessmixed-react",
       images: [
@@ -33,18 +45,8 @@ function Projects(props) {
         "https://i.imgur.com/XCZpflf.png",
       ],
     },
-    // {
-    //   name: "Trip Planner",
-    //   role: "Frontend Developer",
-    //   description:
-    //     "A full CRUD app for planning trips, with a focus on the user's experience.  Get help with scheduling, packing checklist, and budgeting.  Built with React, Express.js, and Bootstrap.",
-    //   live: "https://trip-planner-dn6v.onrender.com",
-    //   git: "https://github.com/jliakim23/project3-frontend",
-    //   images: ["https://i.imgur.com/7H3AtM5.png"],
-    // },
-
     {
-      name: "MTG Conclave",
+      name: "Card Conclave",
       role: "Sole Developer",
       description:
         "A database search site for the card game Magic the Gathering that utilizes the Scryfall API, adding unique search options like sorting results by Card Type and showing a random card within given parameters.",
