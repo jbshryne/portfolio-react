@@ -31,7 +31,7 @@ function Projects(props) {
         "A turn-based RPG-style boardgame for two players. Use stragety, luck, and powerups to fight your opponent and reduce their Hit Points to zero! Built with React and the Redux-based library boardgame.io.",
       live: "https://dungeon-throwdown.onrender.com",
       git: "https://github.com/jbshryne/dungeon-crawl",
-      images: ["https://i.imgur.com/Zw7RMCS.png"],
+      images: ["https://i.imgur.com/C6LAGgv.png"],
     },
     {
       name: "CHESSMIXED",
