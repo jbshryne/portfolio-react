@@ -19,7 +19,7 @@ function Projects(props) {
       name: "Solar System Spotlight",
       role: "Sole Developer",
       description:
-        "A 3D interactive model of the Solar System, with a focus on getting folks of all ages excited about space.  Built with Unity, incorporating GOTween and Cinemachine.",
+        "A 3D interactive model of the Solar System, with a focus on getting folks of all ages excited about space.  Built with Unity, incorporating DOTween and Cinemachine.",
       live: "https://jbshryne.itch.io/solar-system-spotlight",
       git: "https://github.com/jbshryne/SolarSystemUnity",
       images: ["https://i.imgur.com/u5wJtgn.png"],
