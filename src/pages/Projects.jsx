@@ -34,6 +34,18 @@ function Projects(props) {
       images: ["https://i.imgur.com/C6LAGgv.png"],
     },
     {
+      name: "Chancery Archives",
+      role: "Sole Developer",
+      description:
+        "A flavor-focused database search site for the card game Magic the Gathering that utilizes the Scryfall API, adding unique search options like sorting results by Card Type, showing a random card within given parameters, and offering random choices for each card aspect.",
+      live: "https://jbshryne.github.io/mtg-project",
+      git: "https://github.com/jbshryne/card-conclave",
+      images: [
+        "https://i.imgur.com/CkuuF0D.png",
+        "https://i.imgur.com/joerm79.jpeg",
+      ],
+    },
+    {
       name: "CHESSMIXED",
       role: "Sole Developer",
       description:
@@ -45,19 +57,6 @@ function Projects(props) {
         "https://i.imgur.com/XCZpflf.png",
       ],
     },
-    {
-      name: "Card Conclave",
-      role: "Sole Developer",
-      description:
-        "A database search site for the card game Magic the Gathering that utilizes the Scryfall API, adding unique search options like sorting results by Card Type and showing a random card within given parameters.",
-      live: "https://jbshryne.github.io/mtg-project",
-      git: "https://github.com/jbshryne/mtg-project.git",
-      images: [
-        "https://i.imgur.com/IDzUsVD.png",
-        "https://i.imgur.com/2W35DzI.png",
-      ],
-    },
-
     {
       name: "The Living Room",
       role: "Composer / Sound Designer",
